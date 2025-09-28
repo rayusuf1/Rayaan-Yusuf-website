@@ -1,0 +1,247 @@
+/* Reset margins and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', 'Comic Neue', sans-serif;
+  text-align: center;
+  color: #000000;
+  background-color: #bfc1cd;
+  font-size: 18px; /* Increase base font size */
+}
+
+/* Header styling */
+header {
+  background-color: #b2aeae;
+  padding: 10px 0; /* Adjust this if needed */
+  margin-bottom: 0; /* Remove any bottom margin */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 300px;  /* Adjust size */
+  height: 300px;  /* Adjust size */
+  max-width: 650px;  /* Max width */
+  max-height: 750px;  /* Max height */
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px auto; /* Adjust bottom margin */
+  border: 3px solid #080808; /* Adjust border size */
+}
+
+/* Heading styling */
+h1 {
+  color: #000000;
+  font-family: 'Great Vibes', Pacifico, cursive;
+  font-size: 50px; /* Slightly reduce font size */
+  margin-bottom: 10px; /* Adjust margin */
+  background-color: #b2aeae;
+  padding: 10px 0; /* Reduce padding */
+  width: 100%;
+  box-sizing: border-box;
+
+}
+
+/* Navigation styling */
+nav {
+  background-color: black;
+  padding: 10px 0; /* Reduce padding */
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px; /* Adjust margin between items */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f6f4f4;
+  font-size: 1.5em; 
+  padding: 1em;
+}
+
+nav ul li a:hover {
+  background-color: #bfc1cd;
+}
+
+#introduction {
+  padding: 40px; 
+  color: white;
+  font-size: 1.2em; 
+}
+
+/* Style other text elements */
+h2 {
+  color: #222020;
+  text-align: center;
+  margin: 20px;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  font-size: 2em; 
+   border: 1px solid #181616;/* Maintain font size */
+}
+
+p {
+  color: #000000;
+  margin-bottom: 20px; /* Maintain margin below paragraphs */
+}
+
+h3 {
+  color: #000000;
+  font-family: 'Great Vibes', Pacifico, cursive;
+  font-size: 2px; /* Slightly reduce font size */
+  margin-bottom: 10px; /* Adjust margin */
+
+  width: 100%;
+ 
+}
+
+.email-label {
+    color: black; /* Set the color of the email label to black */
+    font-weight: bold; /* Make it bold if desired */
+  border: none;
+  background-color: #bfc1cd;
+}
+
+
+.vertical-nav {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  margin: 20px 0; /* Add margin for spacing */
+   background-color: transparent !important;
+}
+
+.vertical-nav li {
+  margin: 5px 0; /* Space between items */
+}
+
+.vertical-nav a {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Link color */
+  padding: 10px; /* Padding for links */
+  display: inline; /* Make links block-level */
+  justify-content: center;
+  background-color: #bfc1cd; /* Background color */
+  font-size: 0.9em; /* Adjust font size */
+}
+
+.vertical-nav a:hover {
+  background-color: #dadbe2; /* Hover color */
+}
+
+
+
+
+/* Image styling for book recommendations */
+.reading {
+  border-radius: 0%;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto 10px auto; /* Adjust bottom margin */
+}
+
+.recs {
+    font-size: 20px; 
+    color: #000000; 
+    line-height: 1.6; 
+    text-align: left; 
+    margin: 20px 0; 
+    padding: 10px; 
+    width: auto; 
+    max-width: none; 
+}
+
+h4 {
+  color: #000000;
+  font-family: 'Great Vibes', Pacifico, cursive;
+  font-size: 30px; /* Slightly reduce font size */
+  margin-bottom: 10px; /* Adjust margin */
+  background-color: #b2aeae;
+  padding: 10px 0; /* Reduce padding */
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #181616;
+  
+}
+h5 {
+  color: #000000;
+  font-family: 'Great Vibes', Pacifico, cursive;
+  font-size: 25px; /* Slightly reduce font size */
+  margin-bottom: 5px; /* Adjust margin */
+  padding: 10px 0; /* Reduce padding */
+}
+
+h6 {
+  color: #000000;
+  font-family: 'Great Vibes', Pacifico, cursive;
+  font-size: 18px; /* Slightly reduce font size */
+  margin-bottom: 10px; /* Adjust margin */
+  padding: 10px 0; /* Reduce padding */
+}
+.info {
+  color: black
+  margin-bottom: 30px;
+  margin-top: 40px;
+  padding: 20px;
+ }
+
+.learning {
+  border-radius: 0%;
+  border: 3px solid #080808; 
+  margin-top: 30px;
+}
+
+.extra {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.program {
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ 
+}
+
+.title {
+  padding: 20px;
+  font-size: 23px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+/* Button Styling */
+button#myButton {
+    background-color: #9f9b9b; /* Warm brown color for the button background */
+    color: #fff; /* White text color */
+    border: 2px solid #bfc1cd; /* Slightly lighter border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 20px; 
+    font-size: 16px; 
+    font-family: 'Georgia', serif; 
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+    margin: 10px; /* Space around the button */
+}
+
+/* Button Hover Effects */
+button#myButton:hover {
+    background-color: #7a747b; /* Lighter background color on hover */
+    border-color: #bfc1cd; /* Darker border color on hover */
+}
+
+.link {
+  font-size: 25px;
+}

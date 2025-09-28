@@ -1,0 +1,113 @@
+/* style.css */
+
+/* General styles */
+body {
+    background-color:#e4e2e2; 
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #4a4a4a;
+}
+
+/* Question and answer styles */
+.question {
+    margin-bottom: 20px;
+}
+
+.answer-choice {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.answer-choice img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 5px solid #d3d3d3; /* Light grey border */
+}
+
+.answer-choice button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #f8f9fa; /* Same as body background */
+    color: #050505; /* Black text */
+    border: 2px solid #cc99ff; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-choice button:hover {
+    background-color: #cc99ff;
+    color: #f8f9fa; 
+}
+
+/* Result section */
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+#restartButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #cc99ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* making it so that the button changes color when hovered over */
+
+#restartButton:hover {
+    background-color: #b38fd9; 
+}
+
+.answer-choice button {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.answer-choice button:active {
+    opacity: 0.6; /* Slight fade effect on click */
+}
+
+#restartButton {
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+#restartButton:active {
+    opacity: 0.6; /* Slight fade effect on click */
+}
+
+.go-back-link {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #0f0f0f; /* Blue color for the link */
+    text-decoration: none;
+    z-index: 1000; /* 
+}
+
+.go-back-link:hover {
+    text-decoration: underline;
+    color: #363636; /* Darker blue on hover */
+}
